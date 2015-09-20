@@ -1,0 +1,235 @@
+Antagonist: &Antagonist
+#The Antagonist is the "Villian", who wants to stop the Protagonist.
+ Purpose:
+  - Thought
+  - Perception
+  #Thought - Free-thinker, able to consider an issue from multiple perspectives
+  #Perception - knows only what the world SEEMS to be
+ Motivation:
+  - Reconsider
+  - Avoid
+  #Reconsider - will periodically reassess whether the current goal is the correct course of action
+  #Avoid - desires to escape whoever is chasing him (usually the Protagonist)
+ Methodology:
+  - Potentiality
+  - Reaction
+  #Potentiality - is unsure whether his action will lead to the correct outcome, but will still take risks when necessary
+  #Reaction - will wait until a crisis occurs, and then responds accordingly
+ Evaluation:
+  - Unproven
+  - Cause
+  #Unproven - believes that his ideas may still be actually wrong, no matter how many previous tests are done
+  #Cause - cares about addressing the root causes of the problem, and ignores the actual problem.
+ Name: "Julian"
+ Goal: "Destroy the Unblinking Eye and free humanity"
+
+Protagonist: &Protagonist
+#The Protagonist is the the "Hero", the guy who wants stuff done.
+ Purpose:
+  - Knowledge
+  - Actuality
+  #Knowledge - dogmatism and slavish adherence to "orthodoxy"
+  #Actuality - knows how the world really is
+ Motivation:
+  - Consider
+  - Pursuit
+  #Consider - will latch onto a goal and refuse to let it go!
+  #Pursuit - drive to go after a goal or a hated enemy
+ Methodology:
+  - Certainty
+  - Proaction
+  #Certainity - is 100% sure his action will lead to the correct outcome
+  #Proaction - a self-starter who will take action...even without all the facts!
+ Evaluation:
+  - Proven
+  - Effect
+  #Proven - believes that his ideas are correct because they have been shown to be correct multiple times.
+  #Effect - cares about how to solve the problem, and does not worry about what caused the problem in the first place!
+ Name: "The Unblinking Eye"
+ Goal: "Create a glorious utopia where humans are free to maximize their happiness"
+
+Contagonist: &Contagonist
+#The Contagonist is the Tempter, out to convince others to join the "dark side"
+ Purpose:
+  - Inequity
+  - Speculation
+  #Inequity - promotes unfairness or imbalance
+  #Speculation - prepares for all potential and possible ouctomes
+ Motivation:
+  - Temptation
+  - Hinder
+  #Temptation - embrace immedidate benefits, without worrying about the future consequences
+  #Hinder - undermining somebody else's plans, either intentionally or by accident
+ Methodology:
+  - Production
+  - Reevaluation
+  #Production - determines what the current situation is by ruling out what explainations are "impossible"
+  #Reevaluation - continually reexamines and reinterprets the current situation
+ Evaluation:
+  - Determination
+  - Unending
+  #Determination - uses inferences to draws conclusions
+  #Unending - believes that Society can live forever and will live forever
+ Name: "Cory"
+ Goal: "Lead humanity into a prosperous Era of Transhumanism"
+
+Guardian: &Guardian
+#The Guardian is the Moral Conscience, out to guide others to the "light side"
+ Purpose:
+  - Equity
+  - Balance
+  #Equity - promotes fairness and balance
+  #Projection - prepares for the most likely and probable outcomes
+ Motivation:
+  - Conscience
+  - Help
+  #Conscience - forgoing immedidate benefits, because of future consequences
+  #Help - helping somebody else's plans, either intentionally or by accident
+ Methodology:
+  - Reduction
+  - Evaluation
+  #Reduction - determines what the current situation is by weighing odds carefully and choosing the most likely explaination
+  #Evaluation - interprets the current situation to determine its meaning, and then sticks to that interpertion
+  #forever.
+ Evaluation:
+  - Expectation
+  - Ending
+  #Expectation - anticipiates what is going to happen in the future
+  #Ending - believes that Society will end and is concerned about the aftermath
+ Name: "Bishop Henry"
+ Goal: "Defend the human race from the horrors of transhumanism"
+
+Reason: &Reason
+#Reason acts as the "Spock", uses logic and rationality in desicion-making
+ Purpose:
+  - Ability
+  - Aware
+  #Ability - competent at an assigned task
+  #Aware - knows about things outside of himself
+ Motivation:
+ - Logic
+ - Control
+  #Logic - uses rationality to understands the world
+  #Control - focused, deliberate actions
+ Methodology:
+  - Probablity
+  - Inaction
+  #Probablity - only believes in only what is likely
+  #Inaction - prefers to take no action
+ Evaluation:
+  - Theory
+  - Trust
+  #Theory - wants to develop a fully-formed casual relationship to explain what is going on, and refuses to accept
+  #irrational appeals to "common sense"
+  #Trust - accepts without any proof (if it is logically follows from the theory, then it must be true!)
+ Name: "Professor Alfred"
+ Goal: "Remove all traces of irrationality and emotion from the human race"
+
+Emotion: &Emotion
+#The Emotion uses uses passion and intuition in desicion-making.
+ Purpose:
+  - Desire
+  - Self-Aware
+  #Desire - wants to improve society
+  #Self-Aware - knows about his own self
+ Motivation:
+  - Feeling
+  - Uncontrolled
+  #Feeling - can emotionally sense if something or someone is "right"
+  #Uncontrolled - will spend all his energy in all directions at once
+ Methodology:
+  - Possibility
+  - Protection
+  #Possibility - believes in what is possible
+  #Protection - will take action to defend himself from possible threats
+ Evaluation:
+  - Hunch
+  - Test
+  #Hunch - uses intuition to determine what is going on, without need for such petty things like actual evdience
+  #Test - wants to conduct trials and investigations to determine if something is true (using those oh-so-reliable hunches)
+ Name: "Lamar"
+ Goal: "Protect the glorious gift of human empathy"
+
+Sidekick: &Sidekick
+#The Sidekick is a die-hard supporter of another character's actions and goals
+ Purpose:
+  - Order
+  - Inertia
+  #Order - Supports stability and organization
+  #Inertia - Preference for the status quo
+ Motivation:
+  - Faith
+  - Support
+  #Faith - accepts something as certain without need for any sort of proof (emotional or logical)
+  #Support - providing indirect assistance to another character
+ Methodology:
+  - Deduction
+  - Acceptance
+  #Deduction- uses deductive reasoning
+  #Acceptance - will tolerate change and adapt to them
+ Evaluation:
+  - Accurate
+  - Result
+  #Accurate - within acceptable tolerances, "good enough"
+  #Result - cares about the outcomes and consequences of actions
+ Name: "Larry"
+ Goal: "Create a society free of chaos and instability"
+
+Skeptic: &Skeptic
+#The Skeptic is a "Doubter" who thinks his boss does not know what he is doing.
+ Purpose:
+  - Chaos
+  - Change
+  #Chaos - Supports random change and disorder
+  #Change - Wants the status quo overturned
+ Motivation:
+  - Disbelief
+  - Oppose
+  #Disbelief - actively disbelieves in something, and tries to inform the whole world about how much he disbelieves
+  #Oppose - indirectly speaks out against another person's efforts
+ Methodology:
+  - Induction
+  - Nonacceptance
+  #Induction - uses inductive reasoning
+  #Nonacceptance - will refuse to accept change
+ Evaluation:
+  - Nonaccurate
+  - Process
+  #Nonaccurate - no acceptable tolerances, perfectionism
+  #Process - cares about making sure actions are done properly, with no worry about the consequences of said action.
+ Name: "Gregory"
+ Goal: "Kill Friend Computer and his immoral lackies"
+
+Characters:
+ Antagonist:
+  <<: *Antagonist
+  Enemy:
+   <<: *Protagonist
+ Protagonist:
+  <<: *Protagonist
+  Enemy:
+   <<: *Antagonist
+ Contagonist:
+  <<: *Contagonist
+  Enemy:
+   <<: *Guardian
+ Guardian:
+  <<: *Guardian
+  Enemy:
+   <<: *Contagonist
+ Reason:
+  <<: *Reason
+  Enemy:
+   <<: *Emotion
+ Emotion:
+  <<: *Emotion
+  Enemy:
+   <<: *Reason
+ Sidekick:
+  <<: *Sidekick
+  Enemy:
+   <<: *Skeptic
+ Skeptic:
+  <<: *Skeptic
+  Enemy:
+   <<: *Sidekick

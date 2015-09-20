@@ -1,0 +1,271 @@
+#Each 'personality trait' have several phrases associated with them. These pharses are there to try and associate the character
+#with his action.
+SelfVerbs:
+ Knowledge: &Knowledge
+  - relied on peer-reviewed case studies
+  - consulted his source code
+  - remembered what he taught himself
+  - recalled why he was created
+  - wondered why most people would not listen to the truth
+ Certainty: *Knowledge
+ Proven: *Knowledge
+ Actuality:
+  - knew exactly what was going on
+  - grasped the inevitable
+  - predicted this would happen
+ Consider:
+  - mulled his options carefully
+  - deliberated
+  - contemplated carefully
+  - considered his options
+  - pondered
+  - consulted his lookup tables
+  - searched the lookup tables
+  - idly ran a few algorithms in the background
+  - ran a few computer simulations
+ Pursuit:
+  - quickly searched for any suspects or scapegoats to blame
+  - examined the evidence carefully
+  - quickly investigated the situation
+  - looked for clues to explain what happened
+  - sought clues
+ Proaction:
+  - expressed a desire to take action
+  - took charge of the situation
+  - asserted himself
+  - ordered his followers to 'clean up the mess'
+  - rushed to the scene of the disaster
+ Effect:
+  - was aghast at how the situation came to blame
+  - vowed that justice will be served
+  - declared a 'War On Terror'
+ Thought:
+  - thought about the situation
+  - imagined better alternatives
+  - pondered about the truth
+  - considered his optons
+ Perception:
+  - perceived the extent of the situation
+ Reconsider:
+  - saw his whole life was little more than a poor lie
+  - reconsidered his own world view
+ Avoid:
+  - searched for 'safe ground'
+  - looked for any hiding spot
+  - wanted to run away
+ Potentiality:
+  - thought he would be capable enough to handle the task
+  - wished for more time so that he can solve this problem
+ Reaction:
+  - laughed off the crisis as a mere "sideshow"
+  - saw the current crisis as a minor distraction (not worth dealing with)
+ Unproven:
+  - refused to make any assumptions or judgement calls
+ Cause:
+  - quickly browsed Twitter to research the socio-economic trends that had led to the current crisis
+ Inequity:
+  - declared that the situation would have never happened if everyone agreed to become cyborgs
+  - knew the crisis would have been prevented if cyborg technology was readily available
+ Speculation:
+  - thought that a conspiratorial clique was out to attack him
+  - devised plots and counter-plots to deal with the current crisis
+ Temptation:
+  - re-programmed his cyborg arm to deal with the new task
+  - admired his new cyborg arm
+  - showed off his cyborg arm
+ Hinder:
+  - denounced traitors as the worst of all scum
+  - announced that he would hinder all traitors
+ Production:
+  - hired scientists to research the issue deeply and to eliminate all false hypotheses
+ Reevaluation:
+  - changed his ideology to take into account the current situation
+ Determination:
+  - inferred the root causes of the situation
+ Unending:
+  - took comfort in the fact that his legacy will never expire
+  - knew that death is not a barrier to immortality
+ Equity:
+  - hoped that humans and bots should live together in peace and harmony
+ Balance:
+  - examined his own belief system to purge any sign of extremism
+ Projection:
+  - prepared himself for the most likely outcome
+ Conscience:
+  - believed that humans will one day display their inherent self-worth and value to their machine ovelords
+ Help:
+  - understood that treason may be necessary for the 'greater good'
+  - is prepared to help traitors if it will lead to social justice
+ Reduction:
+  - judged what is the most likely cause of the situation
+ Evaluation:
+  - studied the situation carefully
+ Expectation:
+  - knew what would happen next
+ Ending:
+  - started stockpiling supplies for the Armageddon
+ Ability:
+  - repaired the damaged infrastructure
+ Aware:
+  - looked at the world around him
+ Logic:
+  - turned on his Logic App to help him understand the illogical world
+  - consulted the Logic App to help make sense of an irrational world
+  - activated the Logic App
+ Control:
+  - laid out a detailed plan telling himself what to do next
+ Probablity:
+  - ruled out all unlikely explainations
+ Inaction:
+  - preferred to wait and 'ride out' the crisis
+ Theory:
+  - developed a full-fledged peer-reviewed paper that documented the situation and explained it in Plain English
+  - jotted down some notes on this situation
+ Trust:
+  - looked up a full-fledged peer-reviewed study and accepted it as the most likely explaination
+  - consulted Wikipedia for a quick explaination
+ Desire:
+  - strongly hoped for a way to remedy the situation
+  - dreamed that a 'superhero' would come save him
+ Feeling:
+  - had a bad feeling about this
+ Self-Aware:
+  - "hated the situation, deep down in his heart"
+ Uncontrolled:
+  - yelled
+  - screamed
+  - cursed loudly
+ Possibility:
+  - "knew the problem could be solved, if only he was given more time"
+ Protection:
+  - made sure his body armor was ready
+ Hunch:
+  - quickly deduced what was going on
+ Test:
+  - ran some automated tests to determine what just happened
+ Order:
+  - disliked any attempts to disrupt the natural social order
+ Inertia:
+  - "always hated change and wanted everything to stay the same, forever"
+ Faith:
+  - had faith that the natural social order is good for everyone
+ Support:
+  - swore to do what he can to promote the natural social order
+ Deduction:
+  - used deductive reasoning
+ Acceptance:
+  - accepted the inevitable and changed his outlook on society
+ Accurate:
+  - declared that the outcome was 'good enough' for humanity
+ Result:
+  - examined the positives and negatives of the situation
+ Chaos:
+  - loathed any attempt to restrict human freedom
+ Change:
+  - wrote out a manifesto calling for political and social reform
+ Disbelief:
+  - knew that the natural social order is tyrannical and must be reformed
+ Oppose:
+  - vowed to oppose the unjust social order
+ Induction:
+  - used inductive reasoning
+ Nonacceptance:
+  - refused to adapt his morality to the corrupt and immoral society
+ Nonaccurate:
+  - was incredibly unhappy with the outcomes and thought about improvements
+ Process:
+  - "cared about making sure his action was done properly, with no worry about the consequences of said action"
+  - filled out the proper forms
+
+Locations:
+ - the Central Data Mainframe
+ - the Virtual Dream Simulations
+ - the Institute of AI Research
+ - the 'Investigator' Botnet
+ - Police Drone HQ
+
+Adverbs:
+ - angrily
+ - anxiously
+ - arrogantly
+ - cautiously
+ - enviously
+ - evilly
+ - frantically
+ - gladly
+ - gleefully
+ - greedily
+ - grudgingly
+ - grumpily
+ - happily
+ - hollowly
+ - patiently
+ - regretfully
+ - sadly
+ - shamefully
+ - terrifyingly
+ - warily
+ - deeply
+
+Filler:
+#only A-C, there's probably no more reason to add D-Z, as these are really just filler words
+ - absolute
+ - academic
+ - acidic
+ - acoustic
+ - active
+ - adaptable
+ - adequate
+ - administrative
+ - advantageous
+ - advisable
+ - aggressive
+ - alien
+ - "all-natural"
+ - amazing
+ - ambitious
+ - amiable
+ - appealing
+ - appetizing
+ - artsy
+ - assertive
+ - astounding
+ - athletic
+ - awful
+ - barbeque
+ - bashful
+ - beloved
+ - bilious
+ - blasphemous
+ - blood-thirsty
+ - bloddy
+ - bold
+ - bouncy
+ - bountiful
+ - brave
+ - breathtaking
+ - bulging
+ - busted
+ - buttery
+ - captivating
+ - casual
+ - celestial
+ - certified
+ - charitable
+ - charming
+ - cheerful
+ - childish
+ - chilly
+ - clever
+ - cold
+ - complimentary
+ - comely
+ - contaminated
+ - cooperative
+ - courageous
+ - crackly
+ - criminal
+ - critical
+ - cuddly
+ - cultural
+ - creative
