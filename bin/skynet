@@ -2,9 +2,10 @@
 
 require 'optparse'
 require 'methadone'
-CHARACTERS_DATA = YAML.load_file("lib/yml/characters.yml")
-WORDS_DATA = YAML.load_file("lib/yml/words.yml")
-require 'skynet'
+DIR = Gem.datadir 'skynet'
+CHARACTERS_DATA = YAML.load_file File.join(DIR, 'characters.yml')
+WORDS_DATA = YAML.load_file File.join(DIR, "words.yml")
+require 'skynet/skynet'
 
 class App
   include Methadone::Main

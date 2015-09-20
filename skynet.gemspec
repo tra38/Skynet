@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Skynet was originally developed for generating a novel for NaNoWriMo. However, it can be used for other creative writing projects as well (provided you write a .Sky template beforehand)! You may run Skynet in the command line simply by typing "skynet example_file.sky".}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
-  spec.files         = Dir.glob("{bin,lib}/**/*") + %w(LICENSE.txt README.md)
+  spec.files         = Dir.glob("{bin,lib,data}/**/*") + %w(LICENSE.txt README.md)
   spec.bindir        = "bin"
   spec.executables   << 'skynet'
   spec.require_paths = ["lib"]
