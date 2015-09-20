@@ -1,10 +1,7 @@
 require 'yaml'
 
-characters_file = File.open("characters.yml")
-characters_data = YAML.load(characters_file)
-
-words_file = File.open("words.yml")
-@words_data = YAML.load(words_file)
+characters_data = CHARACTERS_DATA
+@words_data = WORDS_DATA
 
 @selfverbs = @words_data["SelfVerbs"]
 

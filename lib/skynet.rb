@@ -1,6 +1,6 @@
 require "skynet/version"
 require 'faker'
-require_relative 'story_generator.rb'
+require 'story_generator.rb'
 
 class Character
 	attr_reader :name, :enemy, :type, :traits, :job, :job_purpose, :company

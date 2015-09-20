@@ -2,7 +2,9 @@
 
 require 'optparse'
 require 'methadone'
-require 'skynet.rb'
+CHARACTERS_DATA = YAML.load_file("lib/yml/characters.yml")
+WORDS_DATA = YAML.load_file("lib/yml/words.yml")
+require 'skynet'
 
 class App
   include Methadone::Main
