@@ -34,7 +34,10 @@ describe "#any" do
 
 	describe "when dealing with multiple nested arrays" do
 		before(:each) do
-			@array_of_arrays = [[0,1,2],[3,4,5],[6,7,8]]
+			@array_one = [0,1,2]
+			@array_two = [3,4,5]
+			@array_three = [6,7,8]
+			@array_of_arrays = [@array_one,@array_two,@array_three]
 		end
 
 		it "will return unique elements from all arrays" do
@@ -45,6 +48,17 @@ describe "#any" do
 			output_array.sort!
 			expect(output_array).to eq([0,1,2,3,4,5,6,7,8])
 		end
+
+		it "will return one element from each inner array" do
+				output_array = []
+				3.times do
+					output_array << @array_of_arrays.any
+				end
+				expect(output_array.length).to eq(3)
+				expect((output_array&@array_one).length).to eq(1)
+				expect((output_array&@array_two).length).to eq(1)
+				expect((output_array&@array_three).length).to eq(1)
+			end
 	end
 
 end
