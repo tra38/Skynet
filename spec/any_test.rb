@@ -1,4 +1,4 @@
-require_relative '../lib/any'
+require_relative '../lib/skynet/any.rb'
 
 describe "#any" do
 	describe "when delaing with a single array" do
@@ -40,7 +40,7 @@ describe "#any" do
 		it "will return unique elements from all arrays" do
 			output_array = []
 			9.times do
-				output_array << @array_of_arrays.any 
+				output_array << @array_of_arrays.any
 			end
 			output_array.sort!
 			expect(output_array).to eq([0,1,2,3,4,5,6,7,8])
