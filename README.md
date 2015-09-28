@@ -12,7 +12,7 @@ Though the program's source code is licensed under the MIT, the Sky files may be
     $ gem install skynet-0.1.0.gem
 
 ## Usage
-TODO: Write usage instructions here
+    $ skynet path/to/story.sky
 
 ## Sky Language
 ```ruby
@@ -21,6 +21,8 @@ to worry about. Instead, he would busy himself with his career as a #{HERO.job},
 where he would #{HERO.job_purpose}. While he would work, #{HERO.name} wished for some
 adventure in his life. Sometimes, #{HERO.name} would #{HERO.action}, but it proves no use. Ah well. }
 ```
+
+For a 'real-world example' where Skynet may be more useful, look at story.sky.
 
 There are currently 4 different characters...the HERO, the QUEST_GIVER, the MONSTER, and the MONSTER_KID. NOUN is a "special location" that is meant to be a focus of the story, but it does not have to be.
 
