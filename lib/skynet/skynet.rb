@@ -1,6 +1,7 @@
 require "skynet/version"
 require 'faker'
 require 'skynet/story_generator.rb'
+require 'skynet/any.rb'
 
 class Character
 	attr_reader :name, :enemy, :type, :traits, :job, :job_purpose, :company
@@ -8,12 +9,21 @@ class Character
 	def initialize(args)
 		@type = args[:type]
 		@name = args[:name]
-		@traits = args[:traits]
+		@purpose = args[:traits]["Purpose"]
+		@motivation = args[:traits]["Motivation"]
+		@methodology = args[:traits]["Methodology"]
+		@evaluation = args[:traits]["Evaluation"]
+		@traits = [@purpose, @evaluation, @motivation, @methodology]
 		@enemy = args[:enemy]
 		@job = Faker::Name.title
 		@job_purpose = Faker::Company.bs
 		@company = Faker::Company.name
 	end
+
+	def action
+		WORDS_DATA["SelfVerbs"][traits.any].any
+	end
+
 end
 
 

@@ -27,6 +27,7 @@ end
 
 def word(trait)
   puts trait
+  p @selfverbs
   @selfverbs[trait].sample
 end
 
