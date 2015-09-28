@@ -8,13 +8,14 @@ Though the program's source code is licensed under the MIT, the Sky files may be
 
 ## Installation
 
-    $ gem install skynet
+    $ git clone https://github.com/tra38/Skynet.git
+    $ gem install skynet-0.1.0.gem
 
 ## Usage
-
 TODO: Write usage instructions here
 
 ## Sky Language
+$ 
 TODO: Write instructions for how to create your own Sky file
 
 ## Contributing
