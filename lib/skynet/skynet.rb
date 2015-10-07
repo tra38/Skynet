@@ -1,7 +1,7 @@
 require "skynet/version"
 require 'faker'
 require 'skynet/story_generator.rb'
-require 'skynet/any.rb'
+require 'skynet/smart_sample.rb'
 
 class Character
 	attr_reader :name, :enemy, :type, :traits, :job, :job_purpose, :company
@@ -21,7 +21,7 @@ class Character
 	end
 
 	def action
-		WORDS_DATA["SelfVerbs"][traits.any].any
+		WORDS_DATA["SelfVerbs"][traits.smart_sample].smart_sample
 	end
 
 end
