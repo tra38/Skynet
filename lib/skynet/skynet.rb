@@ -4,7 +4,7 @@ require 'skynet/story_generator.rb'
 require 'skynet/smart_sample.rb'
 
 class Character
-	attr_reader :name, :enemy, :type, :traits, :job, :job_purpose, :company
+	attr_reader :name, :enemy, :type, :traits, :job, :job_purpose, :company, :proverbs
 
 	def initialize(args)
 		@type = args[:type]
@@ -18,19 +18,25 @@ class Character
 		@job = Faker::Name.title
 		@job_purpose = Faker::Company.bs
 		@company = Faker::Company.name
+		@proverbs = args[:proverbs]
 	end
 
 	def action
 		WORDS_DATA["SelfVerbs"][traits.smart_sample].smart_sample
 	end
 
+	def speak
+		proverbs.smart_sample
+	end
 end
 
+proverbs = WORDS_DATA["Proverbs"]
 
 character_array = []
 
 CHARACTERS.each do |character|
-	character_array << Character.new(type: character[0], name: character[1]["Name"], traits: character[1], enemy: character[1]["Enemy"])
+	proverb_set = character[1]["ProverbSet"]
+	character_array << Character.new(type: character[0], name: character[1]["Name"], traits: character[1], enemy: character[1]["Enemy"], proverbs: proverbs[proverb_set])
 end
 
 
