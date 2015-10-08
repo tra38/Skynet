@@ -25,7 +25,7 @@ While he would work, #{HERO.name} wished for some adventure in his life.
 
 Sometimes, #{HERO.name} #{HERO.action}, but his life was still boring.
 
-So, one day, #{HERO.name} said #{HERO.proverb}. It did not help.
+So, one day, #{HERO.name} said #{HERO.speak}. It did not help.
 
 Oh well.}
 ```
