@@ -16,15 +16,48 @@ Though the program's source code is licensed under the MIT, the Sky files may be
 
 ## Sky Language
 ```ruby
-puts %{ #{HERO.name} never cared too much about #{NOUN}. It was too far away, too remote for him
-to worry about. Instead, he would busy himself with his career as a #{HERO.job},
-where he would #{HERO.job_purpose}. While he would work, #{HERO.name} wished for some
-adventure in his life. Sometimes, #{HERO.name} would #{HERO.action}, but it proves no use. Ah well. }
+puts %{ #{HERO.name} never cared too much about #{NOUN}.
+
+Instead, #{HERO.name} would busy himself with his career as a #{HERO.job},
+where he would #{HERO.job_purpose}.
+
+While he would work, #{HERO.name} wished for some adventure in his life.
+
+Sometimes, #{HERO.name} #{HERO.action}, but his life was still boring.
+
+So, one day, #{HERO.name} said #{HERO.proverb}. It did not help.
+
+Oh well.}
+```
+
+```bash
+ Julian never cared too much about Flower Plaza.
+
+Instead, Julian would busy himself with his career as a District Division Coordinator,
+where he would integrate out-of-the-box initiatives.
+
+While he would work, Julian wished for some adventure in his life.
+
+Sometimes, Julian thought he would be capable enough to handle the task, but his life was still boring.
+
+So, one day, Julian said "The golden age never was the present one". It did not help.
+
+Oh well.
 ```
 
 For a 'real-world example' where Skynet may be more useful, look at story.sky.
 
-There are currently 4 different characters...the HERO, the QUEST_GIVER, the MONSTER, and the MONSTER_KID. NOUN is a "special location" that is meant to be a focus of the story, but it does not have to be.
+There are currently 8 different characters...
+1) the HERO
+2) the QUEST_GIVER
+3) the MONSTER
+4) the FALSE_HERO (in earlier versions, the MONSTER_KID)
+5) the MONARCH
+6) the REBEL
+7) the ADVISOR
+8) the TRAITOR
+
+NOUN is a "special location" that is meant to be a focus of the story, but it does not have to be.
 
 Because Sky is a DSL of Ruby, Ruby code would work just as fine in Sky. There may be quirks in this system that I have to discover and document.
 
