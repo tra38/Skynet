@@ -51,17 +51,27 @@ def find_and_return(array, target_character)
 	end
 end
 
-p character_array.length
-
 HERO = character_array.shuffle!.pop
-
-p character_array.length
 
 MONSTER = find_and_return(character_array, HERO.enemy )
 
 QUEST_GIVER = character_array.shuffle!.pop
 
-MONSTER_KID = find_and_return(character_array, QUEST_GIVER.enemy)
+FALSE_HERO = find_and_return(character_array, QUEST_GIVER.enemy)
+#MONSTER_KID is an alias to ensure backward compablitiy
+MONSTER_KID = FALSE_HERO
+
+MONARCH = character_array.shuffle!.pop
+
+REBEL = find_and_return(character_array, MONARCH.enemy)
+
+ADVISOR = character_array.shuffle!.pop
+
+TRAITOR = find_and_return(character_array, ADVISOR.enemy)
+
+
+
+
 
 noun = ["hat", "car keys", "wedding", "sorrow", "violin case", "flower"].sample
 
