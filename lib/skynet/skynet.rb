@@ -2,6 +2,7 @@ require "skynet/version"
 require 'faker'
 require 'skynet/story_generator.rb'
 require 'skynet/smart_sample.rb'
+require 'skynet/generate_rule.rb'
 
 class Character
 	attr_reader :enemy, :type, :traits, :job, :job_purpose, :company, :proverbs
