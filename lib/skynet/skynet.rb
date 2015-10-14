@@ -10,7 +10,7 @@ class Character
 
 	def initialize(args)
 		@type = args[:type]
-		@name = Faker::Name.name
+		@name = args[:name]
 		@purpose = args[:traits]["Purpose"]
 		@motivation = args[:traits]["Motivation"]
 		@methodology = args[:traits]["Methodology"]
