@@ -25,7 +25,7 @@ While he would work, #{HERO.name} wished for some adventure in his life.
 
 Sometimes, #{HERO.name} #{HERO.action}, but his life was still boring.
 
-So, one day, #{HERO.name} said #{HERO.speak}. It did not help.
+So, one day, #{HERO.name} said "#{HERO.speak}". It did not help.
 
 Oh well.}
 ```
@@ -34,7 +34,7 @@ Oh well.}
  Julian never cared too much about Flower Plaza.
 
 Instead, Julian would busy himself with his career as a District Division Coordinator,
-where he would integrate out-of-the-box initiatives.
+where he would repair coats.
 
 While he would work, Julian wished for some adventure in his life.
 
@@ -44,7 +44,6 @@ So, one day, Julian said "The golden age never was the present one". It did not 
 
 Oh well.
 ```
-
 For a 'real-world example' where Skynet may be more useful, look at story.sky.
 
 There are currently 8 different characters...
@@ -58,6 +57,20 @@ There are currently 8 different characters...
 8) the TRAITOR
 
 NOUN is a "special location" that is meant to be a focus of the story, but it does not have to be.
+
+If you like to create your own random generators, you can specify your own Custom Rules.
+```ruby
+CustomRule.generate_rule "animal", %W(dog cat monkey)
+
+puts %{ The #{CustomRule.animal} is on the mat.} #=> The cat is on the mat.
+```
+
+Phrases are a little more complicated.
+```ruby
+CustomRule.generate_rule "animal", %W(#{"terrible and hideous tiger"} #{"lovable and pretty dinosaur"})
+
+puts %{ The #{CustomRule.animal} is on the mat.} #=>The lovable and pretty dinosaur is on the mat.
+```
 
 Because Sky is a DSL of Ruby, Ruby code would work just as fine in Sky. There may be quirks in this system that I have to discover and document.
 
