@@ -1,54 +1,44 @@
 puts %{
-#{HERO.name} never cared too much about #{NOUN}. It was too far away, too remote for him
-to worry about. Instead, he would busy himself with his career as a #{HERO.job},
-where he would #{HERO.job_purpose}. While he would work, #{HERO.name} wished for some
-adventure in his life.
 
-#{HERO.name}'s boss was #{QUEST_GIVER.name}, a #{QUEST_GIVER.job}. He was not a nice man,
- but he was not a mean man either, and desired to #{QUEST_GIVER.job_purpose}.
+#{HERO.name} never cared too much about #{NOUN}. It was too far away, too remote for him to worry about. Instead, he would busy himself with his career as a #{HERO.job}, where he would #{HERO.job_purpose}. While he would work, #{HERO.name} wished for some adventure in his life. But not too much.
 
-One day, #{MONSTER.name} arrived to the corporate offices of #{HERO.company}. A guard came and asked
-for an 'ID' to verify his presence. #{MONSTER.name} said that he came from the #{NOUN}, here for "vengance".
-#{MONSTER.name} #{MONSTER.action}, and so stabbed the guard.
+#{HERO.name}'s boss was #{QUEST_GIVER.name}, a #{QUEST_GIVER.job}. #{QUEST_GIVER.name} was not a nice man, but he gets the job done, and that's all that mattered. Nothing else did.
 
-#{HERO.name} saw #{MONSTER.name} from his windows, and #{HERO.action}.
-#{MONSTER.name} saw #{HERO.name} right back, and #{HERO.action}.
+#{HERO.name} loved his job.
+---
+#{QUEST_GIVER.name} had a passion in life: to #{QUEST_GIVER.job_purpose}. But his passion could not make money. #{QUEST_GIVER.name} needed a real job. So, #{QUEST_GIVER.name} created a company: #{HERO.company}. #{QUEST_GIVER.name} was excited about his company, before he realized he had a competitor: #{NOUN}, led by CEO #{MONSTER.name}.
 
-#{MONSTER.name} had a purpose: to kill #{QUEST_GIVER.name}. #{MONSTER.name} hated
-how #{QUEST_GIVER.name} tried to destroy #{NOUN} years ago. It was time to pay him back.
+How dare did #{NOUN} exist! #{NOUN}'s business was cutting into #{HERO.company}'s profits, preventing #{QUEST_GIVER.name} from gaining enough free time to pursue his hobby.
 
-#{MONSTER.name} broke through the doors of #{HERO.company} and ambushed #{QUEST_GIVER.name}
-in the hallways. #{MONSTER.name} #{MONSTER.action} and stabbed #{QUEST_GIVER.name}.
-#{QUEST_GIVER.name} #{QUEST_GIVER.action}, and called for help. "If you cannot give
-me help", #{QUEST_GIVER.name} cried, "then give me justice!"
+#{NOUN} had to be eliminated! So #{QUEST_GIVER.name} did every dirty trick in the book to smear #{NOUN}'s excellent reputation. #{MONSTER.name} was seen as a horrible monster, and #{NOUN}'s business collapsed. All the while, #{QUEST_GIVER.name}'s profit margins grew.
 
-#{QUEST_GIVER.name} then died of blood loss.
+#{QUEST_GIVER.name} #{QUEST_GIVER.action}. All in a day's work.
 
-#{MONSTER.name} #{MONSTER.action}. Happy with his evil deed, #{MONSTER.name} left the
-building, and returned back to #{NOUN}.
+#{QUEST_GIVER.name} loved his job.
+----
+One day, #{MONSTER.name} arrived to the corporate offices of #{HERO.company}. A guard came and asked for an 'ID' to verify his presence. #{MONSTER.name} said that he came from the #{NOUN}, here for "vengeance". #{MONSTER.name} #{MONSTER.action}, and then stabbed the guard.
 
-The rest of the co-workers were scared, but not #{HERO.name}! He knew that action had to be taken,
-or #{MONSTER.name} will just return again to terrorize #{HERO.company}.
+#{HERO.name} saw #{MONSTER.name} from his windows, and #{HERO.action}. #{MONSTER.name} saw #{HERO.name} right back, and #{MONSTER.action}.
 
-#{HERO.name} started training for combat, looking for the location of #{NOUN} and researching
-the weaknesses of #{MONSTER.name}. #{HERO.name} #{HERO.action}. He had a job to do.
+#{MONSTER.name} had a purpose: to kill #{QUEST_GIVER.name}. #{MONSTER.name} hated how #{QUEST_GIVER.name} tried to destroy #{NOUN} years ago. It was time to pay him back.
 
-A real job.
+#{MONSTER.name} broke through the doors of #{HERO.company} and ambushed #{QUEST_GIVER.name} in the hallways. #{MONSTER.name} #{MONSTER.action} and stabbed #{QUEST_GIVER.name}. #{QUEST_GIVER.name} #{QUEST_GIVER.action}, and called for help. "If you cannot give me help", #{QUEST_GIVER.name} cried, "then give me justice!"
 
-Finally, after 5 days of planning, #{HERO.name} was ready! He #{HERO.action}, and
-left #{HERO.company}, to travel over to #{NOUN} and end the life of #{MONSTER.name}. But,
-#{MONSTER.name} was prepared.
+#{QUEST_GIVER.name} then died of blood loss. #{MONSTER.name} #{MONSTER.action}.
 
-When #{HERO.name} arrived at #{NOUN}, #{MONSTER.name} was waiting. #{HERO.name} #{HERO.action},
-while #{MONSTER.name} #{MONSTER.action}. #{MONSTER.name} stabbed #{HERO.name} in the heart,
-and #{HERO.name} collapsed to the floor. But, #{HERO.name} knew that his own survival was not important:
-only the death of #{MONSTER.name}.
+Happy with his evil deed, #{MONSTER.name} left the building, and returned back to #{NOUN}.
+---
+Without the leadership of #{QUEST_GIVER.name}, #{HERO.company}'s revenues decreased. #{HERO.name}'s co-workers left #{HERO.company} to work at other startups. Only #{HERO.name} cared about #{QUEST_GIVER.name}'s call for justice.
 
-#{HERO.name} pulled out his own knife and slashed #{MONSTER.name}'s legs. Then, #{HERO.name} died from blood loss,
-pleased at last that #{QUEST_GIVER.name}'s request for 'justice' was fufilled.
+#{HERO.name} started training for combat, looking for the location of #{NOUN} and researching the weaknesses of #{MONSTER.name}. #{HERO.name} #{HERO.action}.
+---
+After 5 days of planning, #{HERO.name} was ready! He #{HERO.action}, and then left the deserted halls of #{HERO.company}, to travel over to #{NOUN} and end the life of #{MONSTER.name}. But, #{MONSTER.name} was prepared.
 
-#{MONSTER.name} stared at his own wounds, and #{MONSTER.action}. He then looked up, and saw
-his son, #{MONSTER_KID.name}. #{MONSTER.name} said, "Avenge my death. Attack #{HERO.company}."
+When #{HERO.name} arrived at #{NOUN}, #{MONSTER.name} was waiting. #{HERO.name} #{HERO.action}, while #{MONSTER.name} #{MONSTER.action}. #{MONSTER.name} stabbed #{HERO.name} in the heart, and #{HERO.name} collapsed to the floor. But, #{HERO.name} knew that his own survival was not important: only the death of #{MONSTER.name}.
+
+#{HERO.name} pulled out his own knife and slashed #{MONSTER.name}'s legs. Then, #{HERO.name} died from blood loss, pleased at last that #{QUEST_GIVER.name}'s request for 'justice' was fufilled.
+
+#{MONSTER.name} stared at his own wounds, and #{MONSTER.action}. He then looked up, and saw his son, #{MONSTER_KID.name}. #{MONSTER.name} said, "Avenge my death."
 
 When #{MONSTER.name} died, #{MONSTER_KID.name} #{MONSTER_KID.action}, and buried #{MONSTER.name} in the
-hallways of #{NOUN}. For the cycle of violence was all that #{NOUN} knew, and all that sustained #{NOUN}. #{MONSTER_KID.name} began his training."}
+hallways of #{NOUN}. But #{MONSTER_KID.name} had no intention of avenging #{MONSTER.name}. There was nobody to avenge. #{HERO.company} was already in its death throes, and everyone that mattered had already died. #{MONSTER_KID.name} knew that the circle of violence had to end one day. Instead, #{MONSTER_KID.name} left #{NOUN} to pursue his own passion: to #{MONSTER_KID.job_purpose}."}
